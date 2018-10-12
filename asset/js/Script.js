@@ -18,3 +18,9 @@ containers.forEach(function(element) {
 containers.forEach(function(element) {
     element.innerHTML= "<input type='text' placeholder='escriba su texto'></input>";
    });
+
+
+   var boton= document.getElementById("btn-click");
+   boton.onclick=function(evt){
+    
+   };
