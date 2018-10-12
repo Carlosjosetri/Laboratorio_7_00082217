@@ -22,6 +22,12 @@ containers.forEach(function(element) {
 
    var boton= document.getElementById("btn-click");
    boton.onclick=function(evt){
-    let msj = document.getElementById('textMsj').value;
-document.getElementById('showMsj').innerText = msj;
+   alert("Hola mundo"); 
    };
+
+var  btnCopy=document.getElementById("btnCopy);
+btnCopy.onclick = function(evt) 
+{ 
+let msj = document.getElementById('textMsj').value;
+document.getElementById('showMsj').innerText = msj;
+}
